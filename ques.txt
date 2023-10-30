@@ -1,0 +1,68 @@
+1. For the given JSON iterate over all for loops (for, for in, for of, forEach)
+Ans var jsonObject = {
+        name: 'Suvarna',
+        Age: '25'
+    };
+    //for
+
+for (var prop in jsonObject) {
+  console.log("Key:" + prop);
+  console.log("Value:" + jsonObject[prop]);
+}
+
+const iterable = [10, 20, 30];
+
+for (const value of iterable) {
+  console.log(value);
+}
+
+//foreach
+let sum = 0;
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction);
+
+function myFunction(item) {
+  sum += item;
+}
+
+JSON Resume DATA
+{
+    "Resume": {
+        "icons" : true
+    },
+    "firstname": "Suvarna",
+    "github_id": "Suvarna2025",
+    "bio_data": {
+        "email": "suvarnaravi20@gmail.com",
+        "phone": "9361176955",
+        "stars": ["C++","MERN Stack"],
+	"summary": {
+		"points":[
+		"Hard worker, quick learner, and Responsible"
+		]
+	},
+        "skills": {
+            "details": [
+                {
+                    "type": "Programming Languages",
+                    "items": [
+                        "Java",
+                        "C++",
+                        "Javascript",
+                    ]
+                }
+            ]
+        },
+        "education": {
+	   
+            "schools": [
+                {
+                    "degree": "Bachelor of ComputerScience (Hons.)",
+                    "institution": "Puducherry University",
+                    "graduation_year": 2018,
+                    "gpa": "3.21/4"
+                }
+            ]
+        },
+    }
+}
