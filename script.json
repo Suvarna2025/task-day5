@@ -1,0 +1,45 @@
+
+
+"RESUME"{
+"firstname": "Suvarna",
+"github_id": "Suvarna2025",
+"bio_data": {
+    "email": "suvarnaravi20@gmail.com",
+    "phone": "9361176955",
+    "stars": ["C++","MERN Stack"],
+"summary": {
+    "points":[
+    "Hard worker, quick learner, and Responsible"
+    ]
+},
+    "skills": {
+        "details": [
+            {
+                "type": "Programming Languages",
+                "items": [
+                    "Java",
+                    "C++",
+                    "Javascript",
+                    "HTML",
+                    "PHP",
+                    "SQL"
+                ]
+            }
+        ]
+    },
+    "education": {
+   
+        "studies" [
+            {
+                "School": "Sri Sankara Vidyalaya",
+                "SSLC Percentage": "92%",
+                "HSC Percentage": "78%",
+                "degree": "Bachelor of ComputerScience (Hons.)",
+                "institution": "Puducherry University",
+                "graduation_year": 2018,
+                "CGPA": "7.5/10"
+            }
+        ]
+    
+}
+}
